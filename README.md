@@ -271,7 +271,7 @@ pip install jupyter matplotlib
 ### Train the model
 
 ```bash
-python train_gpt2.py
+python train.py
 ```
 
 ### Generate text
@@ -280,6 +280,10 @@ If generation code is enabled in the script, the model can generate text from a 
 ```text
 "Hello, I'm a language model, "
 ```
+```bash
+python inspect_model.py
+```
+
 
 ---
 
