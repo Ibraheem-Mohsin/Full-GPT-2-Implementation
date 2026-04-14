@@ -205,7 +205,7 @@ The loss is standard cross-entropy over the vocabulary.
 
 Training uses **AdamW** with parameter grouping for proper weight decay handling.
 
-### Weight Decay
+### 1. Weight Decay
 Weight decay is applied to:
 
 - linear weights
@@ -216,7 +216,7 @@ Weight decay is **not** applied to:
 - biases
 - LayerNorm parameters
 
-### Gradient Clipping
+### 2. Gradient Clipping
 
 ```python
 torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
@@ -224,7 +224,7 @@ torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
 
 This helps keep training stable.
 
-### Learning Rate Scheduler
+### 3. Learning Rate Scheduler
 The schedule has 3 phases:
 
 1. **warmup**: linearly increase learning rate
