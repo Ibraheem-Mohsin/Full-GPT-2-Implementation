@@ -233,23 +233,6 @@ The schedule has 3 phases:
 
 ---
 
-## Project Structure
-
-A typical layout for this project is:
-
-```text
-.
-├── train_gpt2.py        # main training / model script
-├── input.txt            # training text dataset
-├── hellaswag.py         # optional evaluation helper
-├── README.md
-└── requirements.txt
-```
-
-Depending on your version, all code may currently be inside a single script file.
-
----
-
 ## Installation
 
 Create and activate a Python environment, then install dependencies.
