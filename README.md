@@ -251,14 +251,14 @@ pip install jupyter matplotlib
 
 ## How to Run
 
-### Train the model
+### For training the model
 Run
 
 ```bash
 python train.py
 ```
 
-### Generate text
+### For generating text
 If generation code is enabled in the script, the model can generate text from a prefix such as:
 
 ```text
