@@ -1,4 +1,4 @@
-# GPT-2 Style Transformer From Scratch
+# Full GPT-2 Implementation From Scratch
 
 An educational **decoder-only Transformer / GPT-style language model** implemented from scratch in **PyTorch**, inspired by Andrej Karpathy’s nanoGPT.
 
