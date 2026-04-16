@@ -311,8 +311,6 @@ This implementation is heavily inspired by the teaching style and GPT training e
 
 ---
 
-## License
+## 📄 License
+MIT
 
-```text
-MIT License
-```
